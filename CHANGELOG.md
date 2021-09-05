@@ -6,9 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1]
+
+### Fixes
+
+- Add built versions
+
 ## [1.0.0]
 
 First version
 
-[Unreleased]: https://github.com/MacFJA/rollup-plugin-prompt-replace/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/MacFJA/rollup-plugin-prompt-replace/compare/1.0.1...HEAD
+[1.0.1]: https://github.com/MacFJA/rollup-plugin-prompt-replace/releases/tag/1.0.1
 [1.0.0]: https://github.com/MacFJA/rollup-plugin-prompt-replace/releases/tag/1.0.0

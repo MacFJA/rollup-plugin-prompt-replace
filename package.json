@@ -1,10 +1,13 @@
 {
   "name": "@macfja/rollup-plugin-prompt-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup plugin that ask for text to replace",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
-    "lint": "eslint index.js"
+    "build": "rollup -c",
+    "lint": "eslint index.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -36,7 +39,7 @@
     "rollup": "^2.56.3"
   },
   "files": [
-    "index.js",
+    "dist/",
     "LICENSE.md",
     "README.md"
   ]
