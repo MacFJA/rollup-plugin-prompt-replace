@@ -1,0 +1,43 @@
+{
+  "name": "@macfja/rollup-plugin-prompt-replace",
+  "version": "1.0.0",
+  "description": "Rollup plugin that ask for text to replace",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfja/rollup-plugin-prompt-replace.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "replace",
+    "ask",
+    "prompt"
+  ],
+  "author": "MacFJA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macfja/rollup-plugin-prompt-replace/issues"
+  },
+  "homepage": "https://github.com/macfja/rollup-plugin-prompt-replace#readme",
+  "dependencies": {
+    "@rollup/plugin-replace": "^3.0.0",
+    "promptly": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jslint": "^0.12.1",
+    "rollup": "^2.56.3"
+  },
+  "peerDependencies": {
+    "rollup": "^2.56.3"
+  },
+  "files": [
+    "index.js",
+    "LICENSE.md",
+    "README.md"
+  ]
+}
